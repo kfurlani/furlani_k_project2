@@ -1,8 +1,60 @@
+
+
 #container {
-    width: 700px;
+    display:flex;
+    width: 1000px;
     margin: 0 auto;
 }
 
-h1 {
+.hidden{
     display: none;
+}
+
+.mainTitle {
+    font-family: 'Old Standard TT', serif, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 65px;
+    color: #7A1917;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    align-content: center;
+}
+.title {
+    font-family: 'Old Standard TT', serif, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    color: #7A1917;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cap{
+    font-family: 'Old Standard TT', serif, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #7A1917;
+    letter-spacing: 1px;
+}
+
+.pText {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: black;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+}
+.img-margR{
+    margin-left: 20px;
+    margin-top:25px;
+}
+.img-margL{
+    margin-right: 20px;
+    margin-top:25px;
 }
